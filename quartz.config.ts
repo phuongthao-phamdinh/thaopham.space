@@ -3,11 +3,11 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 ThaoPham Space",
+    pageTitle: "👩🏻‍💻 ThaoPham Space",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google", tagId: "G-8895QF4CX2"
     },
     baseUrl: "thaopham.space",
     ignorePatterns: ["private", "templates", ".obsidian"],
